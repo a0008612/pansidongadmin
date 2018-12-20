@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Menu mode="horizontal" :theme="theme1" active-name="2">
+        <Menu mode="horizontal" :theme="theme1" active-name="1">
         <MenuItem name="1" >
             <div @click="toIndex()">
                 <Icon type="ios-paper"></Icon>
@@ -19,22 +19,22 @@
             Ajax Yu
         </div>
         </MenuItem>
-        
+
         <MenuItem name="4">
         <div  @click="toCao()">
             <Icon type="ios-people"></Icon>
             Fatter Cao
         </div>
         </MenuItem>
-        
-        
+
+
         <MenuItem name="5">
         <div @click="toSun()">
             <Icon type="ios-people"></Icon>
             Noddle Sun
         </div>
         </MenuItem>
-        
+
         <MenuItem name="6">
         <div @click="toSong()">
             <Icon type="ios-people"></Icon>
@@ -48,16 +48,16 @@
             Water Ruan
         </div>
         </MenuItem>
-       
+
     </Menu>
     <br>
-    
-    
+
+
     </div>
 </template>
 
 <script>
-    // this.$router.push('/addbeauties'); 
+    // this.$router.push('/addbeauties');
     export default {
         data () {
             return {
@@ -66,13 +66,13 @@
         },
         methods:{
             toIndex(){
-                this.$router.push('/'); 
+                this.$router.push('/');
             },
             toHe(){
-                this.$router.push('/appHe'); 
+                this.$router.push('/appHe');
             },
             toYu(){
-                this.$router.push('/appYu'); 
+                this.$router.push('/appYu');
             },
             toCao(){
                 this.$router.push('/appCao');

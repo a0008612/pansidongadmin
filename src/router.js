@@ -8,6 +8,9 @@ import AppSun from '@/components/service/App-Sun'
 import AppSong from '@/components/service/App-Song'
 import AppRuan from '@/components/service/App-Ruan'
 import AppIndex from '@/components/service/App-Index'
+import AppTravel from '@/components/service/AppTravel'
+import UpdateTravel from '@/components/service/UpdateTravel'
+import IndexHe from '@/components/service/Index_He'
 
 Vue.use(Router)
 
@@ -30,7 +33,7 @@ export const routes= [{
   path: '/appCao',
   name: 'AppCao',
   component: AppCao
-}, 
+},
 {
   path: '/appSun',
   name: 'AppSun',
@@ -45,6 +48,22 @@ export const routes= [{
   path: '/appRuan',
   name: 'AppRuan',
   component: AppRuan
-}
+},
+  {
+    path: '/appTravel',
+    name: 'AppTravel',
+    component: AppTravel
+  }
+  ,
+  {
+    path: '/updateTravel',
+    name: 'UpdateTravel',
+    component: UpdateTravel
+  },
+  {
+    path: '/indexHe',
+    name: 'IndexHe',
+    component: IndexHe
+  }
 ]
-    
+

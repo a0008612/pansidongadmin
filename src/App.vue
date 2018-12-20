@@ -2,8 +2,7 @@
   <div>
     <Header></Header>
     <router-view></router-view>
-    <Footer></Footer>
-  
+
 <!-- <img style="margin:auto" width="33%" src="@/assets/img/logo.png" />
     <form name="form">
         <select name="sel" v-model="n.mn" >
@@ -41,5 +40,5 @@ export default {
 </script>
 
 <style>
-   
+
 </style>
